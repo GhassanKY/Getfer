@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { NavigationContainer } from '@react-navigation/native'
 import React from 'react'
@@ -79,6 +78,6 @@ const tabBarOptions = {
     tabBarShowLabel: false,
     tabBarStyle: {
         backgroundColor: '#ff5f00',
-        borderRadius: '15',
+        borderRadius: 15,
     },
 }
